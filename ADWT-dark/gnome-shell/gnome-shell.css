@@ -34,7 +34,7 @@ stage {
   color: white;
   background-color: rgba(255, 255, 255, 0.1); }
 
-.app-well-app.app-folder .overview-icon, .app-folder.grid-search-result .overview-icon, .app-well-app .overview-icon, .grid-search-result .overview-icon, .dash-item-container .show-apps .overview-icon, .list-search-result, .search-provider-icon, .switcher-list .item-box {
+.app-well-app .overview-icon, .grid-search-result .overview-icon, .dash-item-container .show-apps .overview-icon, .list-search-result, .search-provider-icon, .switcher-list .item-box {
   border-radius: 16px;
   padding: 6px;
   spacing: 6px;
@@ -1171,7 +1171,7 @@ StScrollBar {
 
 /* Welcome dialog */
 .welcome-dialog-image {
-  background-image: url("gnome-shell-start.svg");
+  background-image: url("resource:///org/gnome/shell/theme/gnome-shell-start.svg");
   background-size: contain;
   /* Reasonable maximum dimensions */
   height: 300px;
@@ -1974,28 +1974,8 @@ StScrollBar {
     spacing: 6px; }
 
 .app-well-app.app-folder, .app-folder.grid-search-result {
-  transition-duration: 400ms; }
-  .app-well-app.app-folder .overview-icon, .app-folder.grid-search-result .overview-icon {
-    background-color: rgba(255, 255, 255, 0.19); }
-  .app-well-app.app-folder:hover .overview-icon, .app-folder.grid-search-result:hover .overview-icon {
-    background-color: rgba(255, 255, 255, 0.1); }
-  .app-well-app.app-folder:selected .overview-icon, .app-folder.grid-search-result:selected .overview-icon, .app-well-app.app-folder:focus .overview-icon, .app-folder.grid-search-result:focus .overview-icon {
-    background-color: rgba(255, 255, 255, 0.13); }
-    .app-well-app.app-folder:selected .overview-icon:hover .overview-icon, .app-folder.grid-search-result:selected .overview-icon:hover .overview-icon, .app-well-app.app-folder:focus .overview-icon:hover .overview-icon, .app-folder.grid-search-result:focus .overview-icon:hover .overview-icon {
-      background-color: rgba(255, 255, 255, 0.16); }
-    .app-well-app.app-folder:selected .overview-icon:active .overview-icon, .app-folder.grid-search-result:selected .overview-icon:active .overview-icon, .app-well-app.app-folder:focus .overview-icon:active .overview-icon, .app-folder.grid-search-result:focus .overview-icon:active .overview-icon {
-      background-color: rgba(255, 255, 255, 0.13); }
-  .app-well-app.app-folder:active .overview-icon, .app-folder.grid-search-result:active .overview-icon {
-    background-color: rgba(255, 255, 255, 0.16); }
-  .app-well-app.app-folder:outlined .overview-icon, .app-folder.grid-search-result:outlined .overview-icon, .app-well-app.app-folder:checked .overview-icon, .app-folder.grid-search-result:checked .overview-icon {
-    background-color: rgba(255, 255, 255, 0.19); }
-    .app-well-app.app-folder:outlined .overview-icon:active .overview-icon, .app-folder.grid-search-result:outlined .overview-icon:active .overview-icon, .app-well-app.app-folder:checked .overview-icon:active .overview-icon, .app-folder.grid-search-result:checked .overview-icon:active .overview-icon {
-      background-color: rgba(255, 255, 255, 0.22); }
-    .app-well-app.app-folder:outlined .overview-icon:hover .overview-icon, .app-folder.grid-search-result:outlined .overview-icon:hover .overview-icon, .app-well-app.app-folder:checked .overview-icon:hover .overview-icon, .app-folder.grid-search-result:checked .overview-icon:hover .overview-icon {
-      background-color: rgba(255, 255, 255, 0.25); }
-  .app-well-app.app-folder:drop .overview-icon, .app-folder.grid-search-result:drop .overview-icon {
-    border: 2px solid rgba(53, 132, 228, 0.8);
-    background-color: rgba(53, 132, 228, 0.2); }
+  background-color: #303030;
+  border-radius: 16px; }
 
 .app-folder-dialog {
   border-radius: 32px;
@@ -2800,7 +2780,7 @@ StScrollBar {
     border-radius: 24px;
     spacing: 6px; }
   #dashtodockContainer.bottom #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 4px;
     width: 1px;
     height: 0;
@@ -2863,7 +2843,7 @@ StScrollBar {
     border-radius: 18px;
     spacing: 2px; }
   #dashtodockContainer.bottom.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 1px;
     width: 1px;
     height: 0;
@@ -2926,7 +2906,7 @@ StScrollBar {
     border-radius: 0;
     spacing: 6px; }
   #dashtodockContainer.bottom.extended #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 4px;
     width: 1px;
     height: 0;
@@ -2997,7 +2977,7 @@ StScrollBar {
     border-radius: 0;
     spacing: 2px; }
   #dashtodockContainer.bottom.extended.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 1px;
     width: 1px;
     height: 0;
@@ -3068,7 +3048,7 @@ StScrollBar {
     border-radius: 24px;
     spacing: 6px; }
   #dashtodockContainer.top #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 4px;
     width: 1px;
     height: 0;
@@ -3131,7 +3111,7 @@ StScrollBar {
     border-radius: 18px;
     spacing: 2px; }
   #dashtodockContainer.top.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 1px;
     width: 1px;
     height: 0;
@@ -3194,7 +3174,7 @@ StScrollBar {
     border-radius: 0;
     spacing: 6px; }
   #dashtodockContainer.top.extended #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 4px;
     width: 1px;
     height: 0;
@@ -3265,7 +3245,7 @@ StScrollBar {
     border-radius: 0;
     spacing: 2px; }
   #dashtodockContainer.top.extended.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 1px;
     width: 1px;
     height: 0;
@@ -3336,7 +3316,7 @@ StScrollBar {
     border-radius: 24px;
     spacing: 6px; }
   #dashtodockContainer.left #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 0;
     height: 1px;
     margin: 4px 0;
@@ -3397,7 +3377,7 @@ StScrollBar {
     border-radius: 18px;
     spacing: 2px; }
   #dashtodockContainer.left.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 0;
     height: 1px;
     margin: 1px 0;
@@ -3458,7 +3438,7 @@ StScrollBar {
     border-radius: 0;
     spacing: 6px; }
   #dashtodockContainer.left.extended #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 0;
     height: 1px;
     margin: 4px 0;
@@ -3527,7 +3507,7 @@ StScrollBar {
     border-radius: 0;
     spacing: 2px; }
   #dashtodockContainer.left.extended.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 0;
     height: 1px;
     margin: 1px 0;
@@ -3596,7 +3576,7 @@ StScrollBar {
     border-radius: 24px;
     spacing: 6px; }
   #dashtodockContainer.right #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 0;
     height: 1px;
     margin: 4px 0;
@@ -3657,7 +3637,7 @@ StScrollBar {
     border-radius: 18px;
     spacing: 2px; }
   #dashtodockContainer.right.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 0;
     height: 1px;
     margin: 1px 0;
@@ -3718,7 +3698,7 @@ StScrollBar {
     border-radius: 0;
     spacing: 6px; }
   #dashtodockContainer.right.extended #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 0;
     height: 1px;
     margin: 4px 0;
@@ -3787,7 +3767,7 @@ StScrollBar {
     border-radius: 0;
     spacing: 2px; }
   #dashtodockContainer.right.extended.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 0;
     height: 1px;
     margin: 1px 0;
@@ -3971,7 +3951,8 @@ StScrollBar {
   background-color: #303030; }
 
 #dashtodockContainer.bottom.extended #dash .dash-background, #dashtodockContainer.bottom.extended.dashtodock #dash .dash-background, #dashtodockContainer.bottom.extended.shrink #dash .dash-background {
-  border: none; }
+  border: none;
+  box-shadow: none; }
 
 #dashtodockContainer.bottom .dash-item-container .show-apps, #dashtodockContainer.bottom .dash-item-container .app-well-app, #dashtodockContainer.bottom .dash-item-container .grid-search-result {
   border-radius: 24px; }
@@ -3994,7 +3975,8 @@ StScrollBar {
   background-color: #303030; }
 
 #dashtodockContainer.top.extended #dash .dash-background, #dashtodockContainer.top.extended.dashtodock #dash .dash-background, #dashtodockContainer.top.extended.shrink #dash .dash-background {
-  border: none; }
+  border: none;
+  box-shadow: none; }
 
 #dashtodockContainer.top .dash-item-container .show-apps, #dashtodockContainer.top .dash-item-container .app-well-app, #dashtodockContainer.top .dash-item-container .grid-search-result {
   border-radius: 24px; }
@@ -4017,7 +3999,8 @@ StScrollBar {
   background-color: #303030; }
 
 #dashtodockContainer.left.extended #dash .dash-background, #dashtodockContainer.left.extended.dashtodock #dash .dash-background, #dashtodockContainer.left.extended.shrink #dash .dash-background {
-  border: none; }
+  border: none;
+  box-shadow: none; }
 
 #dashtodockContainer.left .dash-item-container .show-apps, #dashtodockContainer.left .dash-item-container .app-well-app, #dashtodockContainer.left .dash-item-container .grid-search-result {
   border-radius: 24px; }
@@ -4040,7 +4023,8 @@ StScrollBar {
   background-color: #303030; }
 
 #dashtodockContainer.right.extended #dash .dash-background, #dashtodockContainer.right.extended.dashtodock #dash .dash-background, #dashtodockContainer.right.extended.shrink #dash .dash-background {
-  border: none; }
+  border: none;
+  box-shadow: none; }
 
 #dashtodockContainer.right .dash-item-container .show-apps, #dashtodockContainer.right .dash-item-container .app-well-app, #dashtodockContainer.right .dash-item-container .grid-search-result {
   border-radius: 24px; }
