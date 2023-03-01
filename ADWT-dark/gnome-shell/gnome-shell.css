@@ -34,7 +34,7 @@ stage {
   color: white;
   background-color: rgba(255, 255, 255, 0.1); }
 
-.app-well-app .overview-icon, .grid-search-result .overview-icon, .dash-item-container .show-apps .overview-icon, .list-search-result, .search-provider-icon, .switcher-list .item-box {
+.app-well-app.app-folder .overview-icon, .app-folder.grid-search-result .overview-icon, .app-well-app .overview-icon, .grid-search-result .overview-icon, .dash-item-container .show-apps .overview-icon, .list-search-result, .search-provider-icon, .switcher-list .item-box {
   border-radius: 16px;
   padding: 6px;
   spacing: 6px;
@@ -1974,8 +1974,28 @@ StScrollBar {
     spacing: 6px; }
 
 .app-well-app.app-folder, .app-folder.grid-search-result {
-  background-color: #303030;
-  border-radius: 16px; }
+  transition-duration: 400ms; }
+  .app-well-app.app-folder .overview-icon, .app-folder.grid-search-result .overview-icon {
+    background-color: rgba(255, 255, 255, 0.19); }
+  .app-well-app.app-folder:hover .overview-icon, .app-folder.grid-search-result:hover .overview-icon {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .app-well-app.app-folder:selected .overview-icon, .app-folder.grid-search-result:selected .overview-icon, .app-well-app.app-folder:focus .overview-icon, .app-folder.grid-search-result:focus .overview-icon {
+    background-color: rgba(255, 255, 255, 0.13); }
+    .app-well-app.app-folder:selected .overview-icon:hover .overview-icon, .app-folder.grid-search-result:selected .overview-icon:hover .overview-icon, .app-well-app.app-folder:focus .overview-icon:hover .overview-icon, .app-folder.grid-search-result:focus .overview-icon:hover .overview-icon {
+      background-color: rgba(255, 255, 255, 0.16); }
+    .app-well-app.app-folder:selected .overview-icon:active .overview-icon, .app-folder.grid-search-result:selected .overview-icon:active .overview-icon, .app-well-app.app-folder:focus .overview-icon:active .overview-icon, .app-folder.grid-search-result:focus .overview-icon:active .overview-icon {
+      background-color: rgba(255, 255, 255, 0.13); }
+  .app-well-app.app-folder:active .overview-icon, .app-folder.grid-search-result:active .overview-icon {
+    background-color: rgba(255, 255, 255, 0.16); }
+  .app-well-app.app-folder:outlined .overview-icon, .app-folder.grid-search-result:outlined .overview-icon, .app-well-app.app-folder:checked .overview-icon, .app-folder.grid-search-result:checked .overview-icon {
+    background-color: rgba(255, 255, 255, 0.19); }
+    .app-well-app.app-folder:outlined .overview-icon:active .overview-icon, .app-folder.grid-search-result:outlined .overview-icon:active .overview-icon, .app-well-app.app-folder:checked .overview-icon:active .overview-icon, .app-folder.grid-search-result:checked .overview-icon:active .overview-icon {
+      background-color: rgba(255, 255, 255, 0.22); }
+    .app-well-app.app-folder:outlined .overview-icon:hover .overview-icon, .app-folder.grid-search-result:outlined .overview-icon:hover .overview-icon, .app-well-app.app-folder:checked .overview-icon:hover .overview-icon, .app-folder.grid-search-result:checked .overview-icon:hover .overview-icon {
+      background-color: rgba(255, 255, 255, 0.25); }
+  .app-well-app.app-folder:drop .overview-icon, .app-folder.grid-search-result:drop .overview-icon {
+    border: 2px solid rgba(53, 132, 228, 0.8);
+    background-color: rgba(53, 132, 228, 0.2); }
 
 .app-folder-dialog {
   border-radius: 32px;
