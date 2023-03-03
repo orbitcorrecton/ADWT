@@ -1997,7 +1997,7 @@ StScrollBar {
 .dash-separator {
   width: 1px;
   margin: 0 4px;
-  background-color: #2b2b2b;
+  background-color: rgba(255, 255, 255, 0.1);
   margin-bottom: 12px; }
 
 .dash-label {
