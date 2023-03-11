@@ -1947,9 +1947,9 @@ StScrollBar {
     margin-bottom: 14px; }
 
 .dash-background {
-  background-color: #303030;
+  background-color: rgba(56, 56, 56, 0.2);
   border-radius: 28px;
-  border-color: #303030;
+  border-color: transparent;
   padding: 12px;
   spacing: 6px;
   margin-bottom: 12px; }
@@ -1997,7 +1997,7 @@ StScrollBar {
 .dash-separator {
   width: 1px;
   margin: 0 4px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 12px; }
 
 .dash-label {
@@ -2236,16 +2236,16 @@ StScrollBar {
 .page-navigation-arrow:hover > StIcon {
   transition-duration: 100ms;
   color: white;
-  background-color: rgba(255, 255, 255, 0.55);
+  background-color: rgba(255, 255, 255, 0.19);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
-  background-color: rgba(255, 255, 255, 0.235); }
+  background-color: rgba(255, 255, 255, 0.199); }
 
 .page-navigation-arrow:active > StIcon {
   transition-duration: 100ms;
   color: white;
-  background-color: rgba(255, 255, 255, 0.55);
+  background-color: rgba(255, 255, 255, 0.19);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
-  background-color: rgba(255, 255, 255, 0.235); }
+  background-color: rgba(255, 255, 255, 0.199); }
 
 /* Workspace pager */
 .workspace-thumbnails {
