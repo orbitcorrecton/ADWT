@@ -1,6 +1,6 @@
 {
   "name": "Style Dock",
-  "description": "Style Dash to dock extension",
+  "description": "Style Ubuntu dock extension",
   "uuid": "styledock",
   "shell-version": [
     "43"
