@@ -1,0 +1,8 @@
+{
+  "name": "Style Dock",
+  "description": "Style Dash to dock extension",
+  "uuid": "styledock",
+  "shell-version": [
+    "43"
+  ]
+}
