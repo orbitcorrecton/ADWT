@@ -1871,9 +1871,9 @@ StScrollBar {
     background-color: transparent; }
 
 .search-section-content {
-  background-color: #000;
+  background-color: transparent;
   border-radius: 24px;
-  border: 1px solid rgba(43, 43, 43, 0.6);
+  border: 1px solid transparent;
   color: white;
   padding: 12px;
   margin: 0 12px; }
@@ -1882,21 +1882,21 @@ StScrollBar {
   background-color: transparent;
   border-radius: 11px; }
   .list-search-result:hover, .search-provider-icon:hover {
-    background-color: rgba(0, 0, 0, 0.05); }
+    background-color: rgba(255, 255, 255, 0.1); }
   .list-search-result:selected, .search-provider-icon:selected, .list-search-result:focus, .search-provider-icon:focus {
-    background-color: rgba(0, 0, 0, 0.08); }
+    background-color: rgba(255, 255, 255, 0.13); }
     .list-search-result:selected:hover, .search-provider-icon:selected:hover, .list-search-result:focus:hover, .search-provider-icon:focus:hover {
-      background-color: rgba(0, 0, 0, 0.11); }
+      background-color: rgba(255, 255, 255, 0.16); }
     .list-search-result:selected:active, .search-provider-icon:selected:active, .list-search-result:focus:active, .search-provider-icon:focus:active {
-      background-color: rgba(0, 0, 0, 0.08); }
+      background-color: rgba(255, 255, 255, 0.13); }
   .list-search-result:active, .search-provider-icon:active {
-    background-color: rgba(0, 0, 0, 0.11); }
+    background-color: rgba(255, 255, 255, 0.16); }
   .list-search-result:outlined, .search-provider-icon:outlined, .list-search-result:checked, .search-provider-icon:checked {
-    background-color: rgba(0, 0, 0, 0.14); }
+    background-color: rgba(255, 255, 255, 0.19); }
     .list-search-result:outlined:active, .search-provider-icon:outlined:active, .list-search-result:checked:active, .search-provider-icon:checked:active {
-      background-color: rgba(0, 0, 0, 0.17); }
+      background-color: rgba(255, 255, 255, 0.22); }
     .list-search-result:outlined:hover, .search-provider-icon:outlined:hover, .list-search-result:checked:hover, .search-provider-icon:checked:hover {
-      background-color: rgba(0, 0, 0, 0.2); }
+      background-color: rgba(255, 255, 255, 0.25); }
   .list-search-result:drop, .search-provider-icon:drop {
     border: 2px solid rgba(53, 132, 228, 0.8);
     background-color: rgba(53, 132, 228, 0.2); }
@@ -1927,11 +1927,10 @@ StScrollBar {
   spacing: 6px; }
 
 .list-search-result .list-search-result-title {
-  color: white;
   spacing: 12px; }
 
 .list-search-result .list-search-result-description {
-  color: gray; }
+  color: #b3b3b3; }
 
 /* Dash */
 #dash {
