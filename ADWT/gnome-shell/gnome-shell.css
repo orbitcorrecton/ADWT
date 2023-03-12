@@ -1807,10 +1807,10 @@ StScrollBar {
     background-color: transparent; }
 
 .search-section-content {
-  background-color: #f6f5f4;
+  background-color: transparent;
   border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  color: rgba(0, 0, 0, 0.8);
+  border: 1px solid transparent;
+  color: white;
   padding: 12px;
   margin: 0 12px; }
 
@@ -1818,21 +1818,21 @@ StScrollBar {
   background-color: transparent;
   border-radius: 11px; }
   .list-search-result:hover, .search-provider-icon:hover {
-    background-color: rgba(0, 0, 0, 0.05); }
+    background-color: rgba(255, 255, 255, 0.1); }
   .list-search-result:selected, .search-provider-icon:selected, .list-search-result:focus, .search-provider-icon:focus {
-    background-color: rgba(0, 0, 0, 0.08); }
+    background-color: rgba(255, 255, 255, 0.13); }
     .list-search-result:selected:hover, .search-provider-icon:selected:hover, .list-search-result:focus:hover, .search-provider-icon:focus:hover {
-      background-color: rgba(0, 0, 0, 0.11); }
+      background-color: rgba(255, 255, 255, 0.16); }
     .list-search-result:selected:active, .search-provider-icon:selected:active, .list-search-result:focus:active, .search-provider-icon:focus:active {
-      background-color: rgba(0, 0, 0, 0.08); }
+      background-color: rgba(255, 255, 255, 0.13); }
   .list-search-result:active, .search-provider-icon:active {
-    background-color: rgba(0, 0, 0, 0.11); }
+    background-color: rgba(255, 255, 255, 0.16); }
   .list-search-result:outlined, .search-provider-icon:outlined, .list-search-result:checked, .search-provider-icon:checked {
-    background-color: rgba(0, 0, 0, 0.14); }
+    background-color: rgba(255, 255, 255, 0.19); }
     .list-search-result:outlined:active, .search-provider-icon:outlined:active, .list-search-result:checked:active, .search-provider-icon:checked:active {
-      background-color: rgba(0, 0, 0, 0.17); }
+      background-color: rgba(255, 255, 255, 0.22); }
     .list-search-result:outlined:hover, .search-provider-icon:outlined:hover, .list-search-result:checked:hover, .search-provider-icon:checked:hover {
-      background-color: rgba(0, 0, 0, 0.2); }
+      background-color: rgba(255, 255, 255, 0.25); }
   .list-search-result:drop, .search-provider-icon:drop {
     border: 2px solid rgba(53, 132, 228, 0.8);
     background-color: rgba(53, 132, 228, 0.2); }
@@ -1854,7 +1854,7 @@ StScrollBar {
   spacing: 12px; }
   .search-provider-icon .list-search-provider-content .list-search-provider-details {
     width: 120px;
-    color: rgba(0, 0, 0, 0.8); }
+    color: white; }
 
 .list-search-results {
   spacing: 6px; }
@@ -1863,11 +1863,10 @@ StScrollBar {
   spacing: 6px; }
 
 .list-search-result .list-search-result-title {
-  color: rgba(0, 0, 0, 0.8);
   spacing: 12px; }
 
 .list-search-result .list-search-result-description {
-  color: rgba(148, 147, 146, 0.9); }
+  color: lightgray; }
 
 /* Dash */
 #dash {
