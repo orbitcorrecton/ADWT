@@ -1,8 +1,8 @@
 {
   "name": "Style Dock",
-  "description": "Style Ubuntu dock extension",
+  "description": "generated with _stylesheet.scss file in Dash to Dock repository https://github.com/micheleg/dash-to-dock",
   "uuid": "styledock",
   "shell-version": [
-    "43"
+    "40", "41", "42", "43"
   ]
 }
