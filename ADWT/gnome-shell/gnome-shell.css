@@ -2062,9 +2062,9 @@ StScrollBar {
   .app-folder-dialog .page-indicators {
     margin-bottom: 18px; }
     .app-folder-dialog .page-indicators .page-indicator-icon {
-      border: 1px solid rgba(0, 0, 0, 0.27); }
+      background-color: #dad6d2; }
   .app-folder-dialog .app-well-app-running-dot {
-    border: 1px solid rgba(0, 0, 0, 0.27); }
+    background-color: rgba(0, 0, 0, 0.8); }
   .app-folder-dialog .page-navigation-arrow > StIcon {
     margin: 6px;
     padding: 18px;
