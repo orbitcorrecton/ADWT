@@ -1615,7 +1615,7 @@ StScrollBar {
   spacing: 12px; }
 
 #overviewGroup {
-  background-color: white; }
+  background-color: #232323; }
 
 .overview-controls {
   padding-bottom: 32px; }
@@ -1951,9 +1951,9 @@ StScrollBar {
   .app-folder-dialog .page-indicators {
     margin-bottom: 18px; }
     .app-folder-dialog .page-indicators .page-indicator-icon {
-      border: 1px solid rgba(255, 255, 255, 0.97); }
+      background-color: #c7c7c7; }
   .app-folder-dialog .app-well-app-running-dot {
-    border: 1px solid rgba(255, 255, 255, 0.97); }
+    background-color: white; }
   .app-folder-dialog .page-navigation-arrow {
     color: black; }
 

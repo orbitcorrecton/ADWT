@@ -1615,7 +1615,7 @@ StScrollBar {
   spacing: 12px; }
 
 #overviewGroup {
-  background-color: #fff; }
+  background-color: #232323; }
 
 .overview-controls {
   padding-bottom: 32px; }
@@ -1755,7 +1755,7 @@ StScrollBar {
   spacing: 12px; }
 
 .list-search-result .list-search-result-description {
-  color: lightgray; }
+  color: #bdbdbd; }
 
 /* Dash */
 #dash {
@@ -1951,9 +1951,9 @@ StScrollBar {
   .app-folder-dialog .page-indicators {
     margin-bottom: 18px; }
     .app-folder-dialog .page-indicators .page-indicator-icon {
-      border: 1px solid rgba(0, 0, 0, 0.27); }
+      background-color: #dad6d2; }
   .app-folder-dialog .app-well-app-running-dot {
-    border: 1px solid rgba(0, 0, 0, 0.27); }
+    background-color: rgba(0, 0, 0, 0.3); }
   .app-folder-dialog .page-navigation-arrow {
     color: black; }
 
